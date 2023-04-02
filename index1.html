@@ -6,114 +6,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div>
+    <div class="hero">
         <nav>
-            <h2 class="logo">Portfolio</h2>
+            <h2 class="logo">My <span> Portfolio</span></h2>
             <ul>
-                <li><a href="#" style="width:25% !important">HOME</a></li>
-                <li><a href="#about" style="width:25% !important">ABOUT</a></li>
-                <li><a href="#projects" style="width:25% !important">PROJECTS</a></li>
-                <li><a href="#contact" style="width:25% !important">CONTACT</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT Us</a></li>
             </ul>
-            <a href="#" class="btn">Like</a>
-    </div>
-    </nav>
-
-    <header id="home">
-
-        <h3>Hi, my name is</h3>
-        <h1>Samiya Khan</h1>
-        <h3>I'am a Web Developer</h3>
-
-        <a href="/images/webFpg.jpg">
-            <img src="/images/webFpg.jpg" alt="Sample Web Image" width="1200" height="600">
-        </a>
-
-
-    </header>
-    <hr style="width:200px">
-
-    <!-- About Section -->
-    <div id="about">
-        <h2>About Me</h2>
-        <h4>Developer & Designer</h4>
-        <p>I am a front-end web Developer. I can make the website more<br>
-            & more interactive. A responsive design makes your website<br>
-            accessible to all users, regardless of their device.I'm Samiya Khan<br>
-            currently I am perceiving my B.tech degree from NBNSCOE.<br>
-            Now I'm in a third year 6th sem in a second year my team was<br>
-            Smart India Hackathon 2022 grand finale Winner🏆.<br>
-            In 4th same second year I'm the Finalist of UNESCO India Africa Hackathon 2022.<br>
-            From these hackathons I got lots of Good & Powerful connections.<br>
-            And I get to know practical things about the life & about IT industry.<br>
-            Which are so much beneficial for me. These hackathons are one<br>
-            of those Priceless experience of my life Who taught me a lot of things.
-        </p>
-        <a href="ToConnect.html" target="_blank" type="submit" class="btn">Let's Connect</a>
-        <h3>My Skills</h3>
-        <p>Web Design</p>
-
-
-        <!-- Grid for pricing tables
-        <h3>My Achievements</h3>
-        <div>
-            <div>
-                <ul>
-                    <li>Smart India Hackathon 2022 grand finale Winner 🏆</li>
-                    <br>
-                    <li>Finalist of UNESCO India Africa Hackathon 2022 </li>
-                </ul>
+            <a href="https://drive.google.com/file/d/1hBxmlZ0yk6_jGNOe5ho3Yo-NrIJvCFov/view?usp=sharing" class="btn">My
+                Resume📄</a>
+        </nav>
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Samiya <span>Khan</span></h1>
+            <h3>I'am a Web Developer</h3>
+            <div class="newslatter">
+                <form action="Content.html" target="_blank">
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Let's Talk About Your Project">
+                </form>
             </div>
-        </div> -->
-        <!-- End About Section -->
+        </div>
     </div>
 
-    <!-- About Section -->
+    <!-- <a href="https://www.superprof.co.uk/blog/wp-content/uploads/2019/06/resizing-photos-1.jpg">
+            <img src="https://www.superprof.co.uk/blog/wp-content/uploads/2019/06/resizing-photos-1.jpg"
+                alt="Sample Web Image" width="1200" height="600">
+        </a> -->
+
+    <!-- -- About Section -- -->
+    <div id="about">
+        <section class="about">
+            <div class="main">
+                <img src="webFpg.jpg">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Developer <span>& Designer</span></h5>
+                    <p>I am a front-end web Developer. I can make the website more
+                        & more interactive. A responsive design makes your website
+                        accessible to all users, regardless of their device.I'm Samiya Khan
+                        currently I am perceiving my B.tech degree from NBNSCOE.
+                        Now I'm in a third year 6th sem in a second year my team was
+                        Smart India Hackathon 2022 grand finale Winner🏆.
+                        In 4th same second year I'm the Finalist of UNESCO India Africa Hackathon 2022.
+                        From these hackathons I got lots of Good & Powerful connections.
+                        And I get to know practical things about the life & about IT industry.
+                        Which are so much beneficial for me. These hackathons are one
+                        of those Priceless experience of my life Who taught me a lot of things.
+                    </p>
+                    <br>
+                    <a href="Content.html" target="_blank" type="submit" class="btn">Let's Connect</a>
+                    <br>
+                    <br>
+                    <!-- <h3>My Skills</h3>
+        <p>Web Design</p><br> -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Project Section -->
+
     <div id="projects">
+        <div class="projects">
+            <div class="title">
+                <h2>My Projects</h2>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <i class="fa-solid fa-bars"></i>
+                    <h5>SIH Project</h5>
+                    <div class="pra">
+                        <p>Development of ADIP-CI Post-operative rehabilitation details software:</p>
+
+                        <p style="text-align: center;">
+                            <a class="btn" href="SIH.html">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-bars"></i>
+                    <h5>UIAH Project</h5>
+                    <div class="pra">
+                        <p>AI based voice assisted Contact Center for assisting Farmers for their problems:</p>
+
+                        <p style="text-align: center;">
+                            <a class="btn" href="UIAH.html">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="projects">
         <h2>My projects</h2>
         <div>
             <h3><b>Smart India Hackathon 2022 grand finale Winner 🏆</b></h3>
             <p>Development of ADIP-CI Post-operative rehabilitation details software:</p>
+            <br>
             <a href="SIH.html" target="_blank" type="submit" class="btn">
                 Read More
             </a>
+            <br>
+            <br>
         </div>
         <div>
             <h3><b>Finalist of UNESCO India Africa Hackathon 2022</b></h3>
             <p>Development of ADIP-CI Post-operative rehabilitation details software:</p>
+            <br>
             <a href="UIAH.html" target="_blank" type="submit" class="btn">
                 Read More
             </a>
+            <br><br>
         </div>
         <br>
-        <h4>📄 Know about my experiences</h4>
-        <a href="https://drive.google.com/file/d/1hBxmlZ0yk6_jGNOe5ho3Yo-NrIJvCFov/view?usp=sharing"
-            class="button">Download Resume</a>
 
-
-    </div>
-
-
-
-    <p><b>Click on <i>"SEND MESSAGE"</i> button to know more details about what I've done in my hackathon
-            projects</b></p>
-    <!--Contact Section-->
+    </div><br> -->
+    <!-- --Contact Section-- -->
 
     <div id="contact">
-        <!-- Footer -->
+        <!-- -- Footer -- -->
         <footer>
             <p><i>Phone:</i> +91 00000 00000</p>
             <p><i>Email:</i> Samkk2003@mail.com</p>
             <p>Powered by <a>@Samiya Khan</a></p>
-            <!-- End footer -->
+            <!-- -- End footer -- -->
         </footer>
     </div>
 
-
+    <div style="margin-top: 500px;"></div>
 
 </body>
 
